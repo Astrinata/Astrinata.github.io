@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body {
+  color: #808080;
+  font-family: "Oswald","Poiret",sans-serif;
+  font-size: 16px;
+}
+
+#wrapper {
+  width: 600px;
+  margin: 0 auto;
+}
+
+a,
+a:link {
+  color: #8B4513;
+}
+a:visited {
+  color: #FFA500;
+}
+a:hover {
+  color: #FF6347
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald",serif;
+  font-weight: 500;
+}
+
+header {
+  color: #B22222;
+  text-align: center;
+  font-size: 30px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  overflow: hidden;
+}
+
+nav li {
+float: left;
+}
+
+nav li a {
+  display: inline-block;
+  font-size:21px;
+  color: #8B4513;
+  text-align: center;
+  padding: 0px 26px;
+  text-decoration: underline;
+  background-image : linear-gradient(to bottom,#FFFFFF,#FFF5EE);
+ }
+
+nav li a:hover {
+  color: #DAA520;
+  }
+
+nav li a:active {
+  font-size: 130%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+figcaption {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #B22222;
+}
+
+h3 {
+  color: #FF8C00;
+}
+
+section p,
+table,
+ul {
+  background-image : linear-gradient(to bottom right,#FFF5EE,#FFFFFF);
+}
+
+p {
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
