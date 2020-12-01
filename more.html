@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>More</title>
+    <link href="css/styles.css" rel="stylesheet"/>
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/seattle1.jpg">
+      <img src="images/seattle1.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">My trip in Seattle</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/seattle2.jpg">
+      <img src="images/seattle2.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">My trip in Seattle</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/seattle3.jpg">
+      <img src="images/seattle3.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">My trip in Seattle</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/myuniversity.jpg">
+      <img src="images/myuniversity.jpg" alt="" width="600" height="400">
+    </a>
+    <div class="desc">My university</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<main>
+<div id ="wrapper">
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about-me.html">About</a></li>
+      <li><a href="resume.html">Resume</a></li>
+      <li><a href="more.html">More</a></li>
+    </ul>
+  </nav>
+  </div>
+</main>
+
+  <footer>
+    <small>&copy; Copyright 2020, All Rights Reserved</small>
+  </footer>
+
+</body>
+</html>
